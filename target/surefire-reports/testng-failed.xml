@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [nopcommerce regression Suite]">
+  <test thread-count="5" verbose="0" name="regressiontestTest(failed)">
+    <classes>
+      <class name="Tests.userregestirationtest">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="uservanregistersuccess"/>
+          <include name="startdriver"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.userregestirationtest -->
+      <class name="Tests.contactustest">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="contactustests"/>
+          <include name="startdriver"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.contactustest -->
+      <class name="Tests.searchproductusingauto">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="startdriver"/>
+          <include name="quitdriver"/>
+          <include name="searchproduct"/>
+        </methods>
+      </class> <!-- Tests.searchproductusingauto -->
+      <class name="Tests.changecurruncytest">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="startdriver"/>
+          <include name="testchangecurruncy"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.changecurruncytest -->
+      <class name="Tests.addproducttoshoppingcart">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="searchproduct"/>
+          <include name="addproducttocarttest"/>
+          <include name="startdriver"/>
+          <include name="quitdriver"/>
+          <include name="gotoshoopingcart"/>
+        </methods>
+      </class> <!-- Tests.addproducttoshoppingcart -->
+      <class name="Tests.seachproducttest">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="startdriver"/>
+          <include name="searchproduct"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.seachproducttest -->
+      <class name="Tests.hovermenutest">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="usercanselectcategoryfrommainmenu"/>
+          <include name="startdriver"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.hovermenutest -->
+      <class name="Tests.myaccount">
+        <methods>
+          <include name="takescreeenshotonfailure"/>
+          <include name="uservanregistersuccess"/>
+          <include name="startdriver"/>
+          <include name="registerusercanchangepass"/>
+          <include name="quitdriver"/>
+        </methods>
+      </class> <!-- Tests.myaccount -->
+    </classes>
+  </test> <!-- regressiontestTest(failed) -->
+</suite> <!-- Failed suite [nopcommerce regression Suite] -->

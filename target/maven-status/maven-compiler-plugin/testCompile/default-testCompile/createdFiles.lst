@@ -1,0 +1,12 @@
+Tests\changecurruncytest.class
+Tests\TestBase.class
+utility\helper.class
+Tests\hovermenutest.class
+NewTest.class
+Tests\addproducttoshoppingcart.class
+Tests\contactustest.class
+Tests\userregestirationtest.class
+Tests\myaccount.class
+Tests\seachproducttest.class
+Tests\productdetailspage.class
+Tests\searchproductusingauto.class

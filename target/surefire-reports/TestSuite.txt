@@ -1,0 +1,211 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 16, Errors: 0, Skipped: 5, Time elapsed: 17.012 s <<< FAILURE! - in TestSuite
+Tests.userregestirationtest.uservanregistersuccess  Time elapsed: 7.782 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.cssSelector: .result
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at Tests.userregestirationtest.uservanregistersuccess(userregestirationtest.java:26)
+
+Tests.userregestirationtest.takescreeenshotonfailure[[TestResult name=uservanregistersuccess status=FAILURE method=userregestirationtest.uservanregistersuccess()[pri:1, instance:Tests.userregestirationtest@43fe0e] output={null}]](0)  Time elapsed: 7.792 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.addproducttoshoppingcart.searchproduct  Time elapsed: 0.009 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=id, value=small-searchterms}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.addproducttoshoppingcart.searchproduct(addproducttoshoppingcart.java:22)
+
+Tests.addproducttoshoppingcart.takescreeenshotonfailure[[TestResult name=searchproduct status=FAILURE method=addproducttoshoppingcart.searchproduct()[pri:1, instance:Tests.addproducttoshoppingcart@6be70a] output={null}]](0)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.contactustest.contactustests  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, executeScript {script=scrollBy(0,2500), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.contactustest.contactustests(contactustest.java:22)
+
+Tests.contactustest.takescreeenshotonfailure[[TestResult name=contactustests status=FAILURE method=contactustest.contactustests()[pri:0, instance:Tests.contactustest@bdb19] output={null}]](0)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.hovermenutest.usercanselectcategoryfrommainmenu  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, actions {actions=[org.openqa.selenium.interactions.Sequence@94740]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.hovermenutest.usercanselectcategoryfrommainmenu(hovermenutest.java:19)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Tests.hovermenutest.usercanselectcategoryfrommainmenu(hovermenutest.java:19)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=link text, value=Computers}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.hovermenutest.usercanselectcategoryfrommainmenu(hovermenutest.java:19)
+
+Tests.hovermenutest.takescreeenshotonfailure[[TestResult name=usercanselectcategoryfrommainmenu status=FAILURE method=hovermenutest.usercanselectcategoryfrommainmenu()[pri:0, instance:Tests.hovermenutest@556333] output={null}]](0)  Time elapsed: 0.021 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.myaccount.uservanregistersuccess  Time elapsed: 0.003 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=link text, value=Register}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.myaccount.uservanregistersuccess(myaccount.java:21)
+
+Tests.myaccount.takescreeenshotonfailure[[TestResult name=uservanregistersuccess status=FAILURE method=myaccount.uservanregistersuccess()[pri:1, instance:Tests.myaccount@1fc5fb8] output={null}]](0)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.seachproducttest.searchproduct  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=id, value=small-searchterms}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.seachproducttest.searchproduct(seachproducttest.java:20)
+
+Tests.seachproducttest.takescreeenshotonfailure[[TestResult name=searchproduct status=FAILURE method=seachproducttest.searchproduct()[pri:0, instance:Tests.seachproducttest@7aecef] output={null}]](0)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.searchproductusingauto.searchproduct  Time elapsed: 0.002 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=id, value=small-searchterms}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.searchproductusingauto.searchproduct(searchproductusingauto.java:20)
+
+Tests.searchproductusingauto.takescreeenshotonfailure[[TestResult name=searchproduct status=FAILURE method=searchproductusingauto.searchproduct()[pri:0, instance:Tests.searchproductusingauto@150efb8] output={null}]](0)  Time elapsed: 0.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
+Tests.changecurruncytest.testchangecurruncy  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, findElement {using=id, value=customerCurrency}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+	at Tests.changecurruncytest.testchangecurruncy(changecurruncytest.java:17)
+
+Tests.changecurruncytest.takescreeenshotonfailure[[TestResult name=testchangecurruncy status=FAILURE method=changecurruncytest.testchangecurruncy()[pri:0, instance:Tests.changecurruncytest@2d773b] output={null}]](0)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-8GAB0KF', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0811be01976f9ad7c5683cef2b73ac4e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\m.h\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0811be01976f9ad7c5683cef2b73ac4e
+
